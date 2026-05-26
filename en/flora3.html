@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Serra do Açor</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../assets/js/components_en.js"></script>
+
+    <link rel="preload" as="image" href="../assets/data/fotos/flora/vegetaçao e flora.webp">
+
+    <link rel="preload" as="image" href="../assets/data/fotos/flora/historia floresta/Historia floresta_7.webp">
+    <link rel="preload" as="image" href="../assets/data/fotos/flora/especies raras ameacadas/Lilium martagon_4.webp">
+    <link rel="preload" as="image" href="../assets/data/fotos/flora/carvalhal/Quercus robur_1.webp">
+    <link rel="preload" as="image" href="../assets/data/fotos/flora/vegetacao ribeirinha/vegetacao ribeirinha_3.webp">
+    <link rel="preload" as="image" href="../assets/data/fotos/flora/azereiro/azereiro_3.webp">
+</head>
+
+<body>
+
+    <div id="loading-screen">
+        <p id="loading-text">Loading...</p>
+        <div id="loading-bar-track">
+            <div id="loading-bar-fill"></div>
+        </div>
+    </div>
+
+    <div class="background-image">
+        <img src="../assets/data/fotos/flora/vegetaçao e flora.webp">
+    </div>
+
+    <div class="body-flex">
+        <header>
+            <div class="header-left">
+                <div>
+                    <img onclick="window.location.href='index.html'" id="header-logo"
+                        src="../assets/data/header/logo.svg">
+                </div>
+                <div>
+                    <h2 onclick="window.location.href='index.html'" id="header-title">Serra do Açor</h2>
+                    <div class="header-subtitle">
+                        <img id="header-arrow" src="../assets/data/header/arrow-header.svg">
+                        <a href="flora1.html">
+                            <h2 id="header-subtitle">Vegetation and Flora</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-right">
+                <div class="header-language">
+                    <a href="../flora3.html">
+                        <p>PT</p>
+                    </a>
+                    <p>·</p>
+                    <p class="language-selected">EN</p>
+                </div>
+
+                <div class="header-menu">
+                    <img id="menu-button" src="../assets/data/header/menu-header.svg">
+                </div>
+            </div>
+        </header>
+
+
+        <main>
+            <div class="grid">
+                <div class="span-3 menu-inner-text">
+                    <p>The Central Mountain Range marks the boundary between several biogeographical regions, where
+                        Mediterranean species coexist with more markedly Atlantic species. These influences can be seen,
+                        for example, in the difference between N-NW-facing slopes, where species with Atlantic and
+                        Eurosiberian distributions predominate (pedunculate oak, Pyrenean oak, sweet chestnut, broom,
+                        etc.), and S-SE-facing slopes, where Mediterranean plants predominate (strawberry tree, cork
+                        oak, holm oak, Cistus spp., etc.). Of the total recorded species, 30% are Mediterranean, 18%
+                        have Atlantic affinities, and 19% are endemic species (Iberian, Lusitanian, etc.).</p>
+                </div>
+
+                <div class="span-1"></div>
+
+                <div class="span-8 menu-inner">
+                    <div class="menu-inner-row">
+                        <!--menu item-->
+                        <div id="menu-inner-flora0" class="span-2">
+                        </div>
+                        <!--menu item-->
+                        <div id="menu-inner-flora1" class="span-2 menu-inner-item">
+                            <div class="menu-container-image inverted-radius">
+                                <img src="../assets/data/fotos/flora/historia floresta/Historia floresta_7.webp">
+                                <div class="menu-title">
+                                    <h3>History of the Serra do Açor woodland</h3>
+                                </div>
+                            </div>
+                            <div class="menu-knowmore">
+                                <p>Know more</p>
+                                <img src="../assets/data/icons/menu-arrow.svg">
+                            </div>
+                        </div>
+                        <!--menu item-->
+                        <div id="menu-inner-flora2" class="span-2 menu-inner-item">
+                            <div class="menu-container-image inverted-radius">
+                                <img src="../assets/data/fotos/flora/especies raras ameacadas/Lilium martagon_4.webp">
+                                <div class="menu-title">
+                                    <h3>Threatened<br>species</h3>
+                                </div>
+                            </div>
+                            <div class="menu-knowmore">
+                                <p>Know more</p>
+                                <img src="../assets/data/icons/menu-arrow.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-inner-row">
+                        <!--menu item-->
+                        <div id="menu-inner-flora3" class="span-2 menu-inner-item">
+                            <div class="menu-container-image inverted-radius">
+                                <img src="../assets/data/fotos/flora/carvalhal/Quercus robur_1.webp">
+                                <div class="menu-title">
+                                    <h3>Oak woodland</h3>
+                                </div>
+                            </div>
+                            <div class="menu-knowmore">
+                                <p>Know more</p>
+                                <img src="../assets/data/icons/menu-arrow.svg">
+                            </div>
+                        </div>
+                        <!--menu item-->
+                        <div id="menu-inner-flora4" class="span-2 menu-inner-item">
+                            <div class="menu-container-image inverted-radius">
+                                <img src="../assets/data/fotos/flora/vegetacao ribeirinha/vegetacao ribeirinha_3.webp">
+                                <div class="menu-title">
+                                    <h3>Riparian<br>vegetation</h3>
+                                </div>
+                            </div>
+                            <div class="menu-knowmore">
+                                <p>Know more</p>
+                                <img src="../assets/data/icons/menu-arrow.svg">
+                            </div>
+                        </div>
+                        <!--menu item-->
+                        <div id="menu-inner-flora5" class="span-2 menu-inner-item">
+                            <div class="menu-container-image inverted-radius">
+                                <img src="../assets/data/fotos/flora/azereiro/azereiro_3.webp">
+                                <div class="menu-title">
+                                    <h3>Portugal laurel</h3>
+                                </div>
+                            </div>
+                            <div class="menu-knowmore">
+                                <p>Know more</p>
+                                <img src="../assets/data/icons/menu-arrow.svg">
+                            </div>
+                        </div>
+                        <!--button menu-->
+                        <div class="span-2 menu-inner-button-container">
+                            <menu-inner-button label="Fauna" href="fauna1.html"></menu-inner-button>
+                        </div>
+
+                    </div>
+                </div>
+        </main>
+
+
+        <footer>
+            <footer-arrow direction="left" href="flora2.html"></footer-arrow>
+        </footer>
+
+
+
+
+
+
+
+        <!--POP UP 1-->
+        <div id="popup-flora1" class="popup grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>History of the<br>Serra do Açor woodland</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    During the Tertiary period, subtropical vegetation predominated in our territory.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    Between 5 and 3 million years ago, this vegetation, in the more inland mountain
+                                    areas, was dominated by evergreen lauriform species (species with evergreen leaves
+                                    resembling the bay laurel). Some of the dominant species belonged to genera such as
+                                    Sequoia and Sweetgum, and species such as the common rhododendron (<em>Rhododendron
+                                        ponticum</em>) and the Portugal laurel (<em>Prunus lusitanica</em> subsp.
+                                    <em>lusitanica</em>) could be
+                                    found.<br><br>
+
+                                    About 3 million years ago, summer rainfall gradually decreased, leading to
+                                    the establishment of a Mediterranean climate. Around this time, plants belonging to
+                                    more Mediterranean genera began to dominate: <em>Olea</em> (the olive genus),
+                                    <em>Pistacia,
+                                        Phillyrea</em> (green olive tree), and <em>Quercus</em> (oaks)... 1.8 million
+                                    years ago, the
+                                    glaciations of the Quaternary period began. The cold, dry climate favoured
+                                    vegetation similar to that found in the steppes, dominated by herbaceous species and
+                                    some shrubs (such as heathers). However, in sheltered valleys of mountainous areas,
+                                    some relics of the Tertiary forest survived. Portugal laurel is one of those relic
+                                    species. Oaks are also thought to have taken refuge in these more sheltered valleys.
+                                    Only about 10 000 years ago, with the end of the glaciations, did forest species
+                                    begin to spread from these more sheltered areas. From then on, our territory became
+                                    covered by a forest dominated by oaks.<br><br>
+
+                                    However, this forest soon showed signs of the
+                                    human activities that were beginning to develop. About 9000 years ago, with the
+                                    Neolithic revolution, agriculture and pastoralism were “invented”.<br>
+                                    From then on, over thousands of years, human beings took land from the primitive
+                                    forest, usually
+                                    by fire, to convert it into agricultural land or pasture for domestic animals.
+                                    Closer to our time, between the 12th and 17th centuries, we practically destroyed
+                                    all our native forest. Alongside pastoralism and agriculture came charcoal
+                                    production and shipbuilding: building a single ship required the felling of
+                                    thousands of oaks. As such, the forest that reached the 20th century was rather
+                                    poor, and much of the country was covered by scrubland.<br>
+                                    The large-scale plantations of maritime pine and eucalyptus that nowadays
+                                    characterize our landscape, are the
+                                    result of reforestation work carried out during the second half of the 20th century.
+                                    However, these stands of trees have nothing to do with the forest that naturally
+                                    fits our climatic conditions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="../assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/historia floresta/Historia floresta_6.webp" class="active">
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/historia floresta/Historia floresta_2.webp">
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/historia floresta/Historia floresta_5.webp">
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/historia floresta/Historia floresta_7.webp">
+                    </div>
+
+                    <div class="span-4 ">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-flora1-close" src="../assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+        <!--POP UP 2-->
+        <div id="popup-flora2" class="popup grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Threatened<br>species</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    Flora species belonging to 71 different families have been recorded in Protected
+                                    Habitat PPSA 336.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    Among the plant species present in this Protected Area are species with a threatened
+                                    status according to the Red Book of the Vascular Flora of Mainland Portugal:
+                                    <em>Epipactis fageticola</em> – Endangered; <em>Neottia nidus-avis (L.) Rich.</em> –
+                                    Vulnerable;
+                                    <em>Lilium martagon</em> – Vulnerable; <em>Veronica micrantha</em> – Near
+                                    Threatened; <em>Prunus
+                                        lusitanica</em> subsp. <em>lusitanica</em> – Near Threatened. The number of flora species
+                                    included
+                                    in the various annexes of the Habitats Directive indicates the importance of Serra
+                                    do Açor flora for nature conservation at the international level. These include
+                                    species such as <em>Murbeckiella sousae Rothm.</em> (Annex IV), <em>Scrophularia
+                                        grandiflora DC.</em>
+                                    (Annex V), <em>Veronica micrantha Hoffmanns. & Link</em> (Annex II), <em>Festuca
+                                        summilusitana
+                                        Franco & Rocha Afonso</em> (Annex II), <em>Ruscus aculeatus L.</em> (Annex V),
+                                    <em>Narcissus
+                                        bulbocodium L.</em> subsp. <em>bulbocodium</em> (Annex V), and <em>Narcissus
+                                        triandrus L.</em> subsp.
+                                    <em>pallidulus</em> (Graells) <em>Rivas Goday</em> (Annex IV).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore">
+                        <p>Find out more:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button" id="popup-secondary-2-2">
+                                <p>Veronica micrantha</p>
+                                <img src="../assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                         <div class="slide">
+                             <img loading="lazy" src="../assets/data/fotos/flora/especies raras ameacadas/Scrophularia grandiflora_2.webp"
+                            class="active">
+                            <div class="slide-caption">
+                                <p>Scrophularia grandiflora</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                             <img loading="lazy" src="../assets/data/fotos/flora/especies raras ameacadas/Ruscus aculeatus.webp">
+                            <div class="slide-caption">
+                                <p>Ruscus aculeatus</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                             <img loading="lazy" src="../assets/data/fotos/flora/especies raras ameacadas/Lilium martagon_2.webp">
+                            <div class="slide-caption">
+                                <p>Lilium martagon</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img loading="lazy" src="../assets/data/fotos/flora/especies raras ameacadas/Ilex aquifoilium.webp">
+                            <div class="slide-caption">
+                                <p>llex aquifoilium</p>
+                            </div>
+                        </div>
+                            
+                         <div class="slide">
+                           <img loading="lazy" src="../assets/data/fotos/flora/especies raras ameacadas/Eryngium duriaei_1.webp">
+                            <div class="slide-caption">
+                                <p>Eryngium duriaei</p>
+                            </div>
+                        </div>
+                        
+                        <div class="slide">
+                           <img loading="lazy" src="../assets/data/fotos/flora/especies raras ameacadas/Murbeckiella sousae.webp">
+                            <div class="slide-caption">
+                                <p>Murbeckiella sousae</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img loading="lazy" src="../assets/data/fotos/flora/especies raras ameacadas/Narcissus triandrus.webp">
+                            <div class="slide-caption">
+                                <p>Narcissus triandrus</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img loading="lazy" src="../assets/data/fotos/flora/especies raras ameacadas/Poligonatum odoratum.webp">
+                            <div class="slide-caption">
+                                <p>Poligonatum odoratum</p>
+                            </div>
+                        </div>
+                        
+                        <div class="slide">
+                            <img loading="lazy" src="../assets/data/fotos/flora/especies raras ameacadas/Epipatis.webp">
+                            <div class="slide-caption">
+                                <p>Epipatis</p>
+                            </div>
+                        </div>                        
+                    </div>
+
+                    <div class="span-4">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-flora2-close" src="../assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+
+
+        <!--POP UP 2-2-->
+        <div id="popup-flora2-2" class="popup popup-secondary grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Veronica<br>Micrantha</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    <em>Veronica micrantha</em> is a small herbaceous plant with tiny pink flowers, an
+                                    endemic
+                                    species of the northwestern Iberian quadrant.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    In Portugal it is scattered across the Northern and Beiras regions, and is more
+                                    abundant in mountainous areas. It is a characteristic species of moist woodland
+                                    edges, especially in riparian areas and along the edges of wet meadows, and it also
+                                    occurs, apparently spreading, along rural paths where water flows. The national
+                                    trend of this species is uncertain, however, the SAC (Special Area of Conservation)
+                                    is included in one of the territories where this species develops favourably, the
+                                    Serra do Açor. (Carapeto et al., 2020). Within the SAC (Special Area of
+                                    Conservation) it is only known to occur in the Serra do Açor Protected Landscape
+                                    area. In 2010, 31 population clusters were recorded in Mata da Margaraça itself,
+                                    totalling 282 specimens, and there was 1 cluster on the edge of former agricultural
+                                    land near Pardieiros with 268 individual specimens, giving an estimated population
+                                    of 550 individuals (taken from the Management Plan Report for the Complexo do Açor
+                                    Special Area of Conservation).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="../assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                   <div class="slides">
+                        <div class="slide">
+                            <img loading="lazy" src="../assets/data/fotos/flora/especies raras ameacadas/Veronica micrantha_4.webp"
+                            class="active">
+                            <div class="slide-caption">
+                                <p>Veronica micrantha</p>
+                            </div>
+                        </div>     
+                    </div>
+
+                    <div class="span-4 appearance-none">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-flora2-2-close" src="../assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+        <!--POP UP 3-->
+        <div id="popup-flora3" class="popup grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Oak woodland —<br>Mata da Margaraça</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    In Serra do Açor, the most common oak species is the pedunculate oak, also known as
+                                    the common oak, but you can also see others, such as the Pyrenean oak, the cork oak,
+                                    and the holm oak.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    The forest that would dominate the landscape after the end of the last glaciation
+                                    (about 10 000 years ago) was dominated by oaks. Oak woods are forests which are very
+                                    rich in species. Mata da Margaraça is a small part of that vast oak forest that once
+                                    covered this mountain range. Small and rare relics of the primitive forest of this
+                                    region survive in pockets of the mountain range: oak woodland, dominated by the
+                                    pedunculate oak, also known as the common oak (<em>Quercus robur</em>) and
+                                    accompanied by a
+                                    large retinue of plant species (sweet chestnuts, elms, Portugal laurel, hollies,
+                                    hazels, laurustinus, strawberry trees…).<br><br>
+
+                                    Mata da Margaraça is the best-preserved
+                                    example of this forest. The tree layer is dominated by pedunculate oak, also known
+                                    as common oak (<em>Quercus robur</em>) and sweet chestnut (<em>Castanea
+                                        sativa</em>), with some very
+                                    old specimens of both species. Although less abundant, there are other deciduous
+                                    species such as hazels, elms, cherry trees and walnut trees. This woodland is
+                                    characterized by the presence of Mediterranean elements, such as the strawberry tree
+                                    (<em>Arbutus unedo</em>), the laurustinus (<em>Viburnum tinus</em>) and the bay
+                                    laurel (<em>Laurus
+                                        nobilis</em>).<br>
+                                    Its flora is very interesting, and Mata da Margaraça holds the largest
+                                    known population of Portugal laurel (<em>Prunus lusitanica</em> subsp. <em>lusitanica</em>)
+                                    across its
+                                    entire distribution area. This species is a relic of the subtropical laurel forest of the
+                                    Tertiary period. Also noteworthy is a small population of the rare Iberian endemic
+                                    <em>Veronica micrantha</em>. Among the herbaceous species that overwinter as bulbs
+                                    are
+                                    interesting Portuguese flora species, such as the Martagon lily or Turk’s-cap lily
+                                    (<em>Lilium martagon</em>), Solomon’s seal (<em>Polygonatum odoratum</em>), the
+                                    daffodil Angel’s Tears
+                                    (<em>Narcissus triandrus</em>), the sea holly species Durieu’s eryngo (<em>Eryngium
+                                        duriaei</em>), and
+                                    several species of orchids, such as the Narrow-leaved Helleborine (<em>Cephalanthera
+                                        longifolia</em>) and the Early-purple Orchid (<em>Orchis mascula</em>).<br><br>
+
+                                    A large number of species
+                                    have their preferred habitat here: These include 249 vascular plant species, 98 moss
+                                    species, 53 liverworts, 257 fungi species and, among the fauna, 279 species, of
+                                    which 194 are butterflies, 5 amphibians, 8 reptiles, 39 birds and 32 mammals. In
+                                    this type of forest, the tree and shrub layers are dense, creating a dark, humid
+                                    environment with smaller temperature variations than outside the woodland. This is
+                                    the main reason why the herb layer is poor in diversity and is made up mostly of
+                                    species adapted to humid conditions and low light. This helps explain the presence
+                                    of 17 different species of fern. Herbaceous species have also adapted in other ways
+                                    to these conditions. For example, <em>Primula acaulis</em> is called “Primrose”
+                                    because it is
+                                    among the first to flower, at the end of winter, when the climate has become milder
+                                    and plenty of light reaches the ground because the leaves of deciduous trees have
+                                    not yet emerged. The dynamic balance of a deciduous forest is complex and includes
+                                    countless interaction processes among all the living beings that are to be found
+                                    there, whether between individual members of the same species or different species,
+                                    and between these and the abiotic components of the environment (soil chemistry and
+                                    physics, temperature, humidity, light, climate, etc.). From the importance of the
+                                    organic matter present in dying organisms, to the main agents of decomposition
+                                    (bacteria and fungi), passing through the entire food chain that begins with plants,
+                                    which capture solar energy in the forest system through photosynthesis, and ends
+                                    with predators such as the fox, the genet, and birds of prey, there are countless
+                                    examples of these interactions. In the forest, each living being and each species
+                                    has its indispensable place in the balance of the whole. Forests are also essential
+                                    for soil formation and maintenance, climate regulation, regulation of the water
+                                    cycle and nutrients. Without forests, the atmosphere would not be purified of carbon
+                                    dioxide, and many species of living beings would lose the possibility of survival
+                                    because they are adapted to this type of habitat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="../assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/carvalhal/carvalhal_12.webp" class="active">
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/carvalhal/Quercus robur_2.webp">
+                        <div class="slide">
+                            <img loading="lazy" src="../assets/data/fotos/flora/carvalhal/primula vulgaris.webp">
+                            <div class="slide-caption">
+                                <p>Primula vulgaris</p>
+                            </div>
+                        </div>
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/carvalhal/carvalhal_2.webp">
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/carvalhal/carvalhal_13.webp">
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/carvalhal/carvalhal_1.webp">
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/carvalhal/carvalhal_11_vertical.JPG">
+                        
+                        <div class="slide">
+                            <img loading="lazy" src="../assets/data/fotos/flora/carvalhal/Quercus robur_1.webp">
+                            <div class="slide-caption">
+                                <p>Quercus robur</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-4">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-flora3-close" src="../assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+
+        <!--POP UP 4-->
+        <div id="popup-flora4" class="popup grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Riparian<br>vegetation</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    These plant communities accompany much of the watercourses of Serra do Açor, forming
+                                    riparian woodland along their banks.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    They often occupy the bottoms of steep valleys, where the effects of forest fires
+                                    have not been as severe.<br><br>
+
+                                    The dominant species in the riparian woodland of Serra do
+                                    Açor are willows (<em>Salix atrocinerea</em> and <em>Salix salviifolia</em>), the
+                                    Portugal laurel
+                                    (<em>Prunus lusitanica</em> subsp. <em>lusitanica</em>), and the bay laurel (<em>Laurus
+                                        nobilis</em>). Other
+                                    species include the elder (<em>Sambucus nigra</em>), the alder buckthorn
+                                    (<em>Frangula alnus</em>),
+                                    the alder (<em>Alnus glutinosa</em>), the laurustinus (<em>Viburnum tinus</em>), the
+                                    strawberry tree
+                                    (<em>Arbutus unedo</em>), the holly (<em>Ilex aquifolium</em>) and the hawthorn
+                                    (<em>Crataegus monogyna</em>).
+                                    In the shrub and herbaceous layers, various species appear. Along the watercourses,
+                                    it is still possible to observe well-preserved corridors of native vegetation. The
+                                    freshness of the water and the plants that grow here (species adapted to the
+                                    proximity of running water) help these areas to be more protected from fire.<br><br>
+
+                                    The shrub and herb layers contain species such as <em>Oenanthe crocata</em>,
+                                    <em>Saponaria
+                                        officinalis</em>, <em>Erica arborea</em>, <em>Myosotis secunda</em>, <em>Erica
+                                        lusitanica</em>, <em>Apium nodiflorum</em>,
+                                    <em>Bryonia dioica</em>, <em>Hedera helix</em>, <em>Rubus</em> sp., <em>Tamus
+                                        communis</em>, <em>Asplenium onopteris</em>,
+                                    <em>Athyrium filix-femina</em>, <em>Blechnum spicant</em>, <em>Dryopteris
+                                        affinis</em>, <em>Osmunda regalis</em>,
+                                    <em>Polystichum setiferum</em>, <em>Luzula sylvatica</em> subsp.
+                                    <em>henriquesii</em>, <em>Scrophularia scorodonia</em>,
+                                    <em>Saxifraga spathularis</em> and <em>Euphorbia dulcis</em>.<br><br>
+
+                                    The presence of the alder (<em>Alnus glutinosa</em>) accompanied by species such as
+                                    the holly (<em>Ilex aquifolium</em>), the bay
+                                    laurel (<em>Laurus nobilis</em>), <em>Luzula sylvatica</em> subsp.
+                                    <em>henriquesii</em>, <em>Scrophularia
+                                        scorodonia</em>, <em>Saxifraga spathularis</em>, and <em>Euphorbia dulcis</em>
+                                    indicates this is a *91EO
+                                    habitat of the Habitats Directive (a priority habitat for conservation).<br><br>
+
+                                    The
+                                    sometimes abundant presence of Portugal laurels, a species of great scientific and
+                                    ornamental interest with a restricted distribution area made up of small relict
+                                    populations, contributes to the high conservation value of these communities.
+                                    Portugal laurel is also a good indicator of relict ecosystems, preferred habitats
+                                    for many species, especially bryophytes. Riparian corridors also function as
+                                    ecological corridors.<br><br>
+
+                                    As mentioned, these communities follow watercourses, often at
+                                    the bottom of steep valleys where the effects of forest fires have not been as
+                                    intense as on adjacent slopes. They therefore function as refuges for fauna,
+                                    facilitating movement and shelter for numerous species, and also providing shady,
+                                    humid microhabitats necessary for the development of many plant species. This
+                                    community also plays an important role in preventing erosion, thereby contributing
+                                    to soil formation and retention. The role of riparian corridors as barriers that
+                                    hinder the spread of fires is also noteworthy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="../assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/vegetacao ribeirinha/vegetacao ribeirinha_4.webp"
+                            class="active">
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/vegetacao ribeirinha/vegetacao ribeirinha_2.jpg">
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/vegetacao ribeirinha/vegetacao ribeirinha_3.webp">
+                    </div>
+
+                    <div class="span-4 ">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-flora4-close" src="../assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+
+        <!--POP UP 5-->
+        <div id="popup-flora5" class="popup grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Portugal laurel <em>Prunus lusitanica</em><br>subsp. <em>lusitanica</em></h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    The Portugal laurel (<em>Prunus lusitanica subsp. lusitanica</em>) holds a prominent place
+                                    among the species in the Mata da Margaraça.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    It is a species of considerable scientific and ornamental interest, with a
+                                    restricted distribution area and it is an indicator of relict communities and
+                                    ecosystems important for biodiversity conservation. According to some authors, Serra
+                                    do Açor holds the largest populations of Portugal laurel across its entire
+                                    distribution range, with Mata da Margaraça possessing the largest existing
+                                    population.<br><br>
+                                    This species was part of the subtropical forest that covered this
+                                    territory for many millions of years during the Tertiary period, and later survived
+                                    the Quaternary glaciations in more sheltered valleys. Sixty-five million years ago,
+                                    when the climate was warmer and wetter and long before the glaciers covered much of
+                                    what is now mainland Portugal, there was a forest here that can be called the
+                                    Laurissilva, since it was dominated by laurel-like species, that is, species with
+                                    the broad and glossy leaves similar to those of the bay laurel.<br><br>
+                                    Its current natural
+                                    range extends from the western Pyrenees to the mountains of Morocco, with its
+                                    optimal distribution occurring in the Iberian Peninsula. In Portugal it occurs in
+                                    Gerês and in the mountainous zones of the central mountain range, including Estrela,
+                                    Açor, and Lousã, extending south to the municipality of Mação. Its attractive
+                                    evergreen foliage gives the species strong ornamental potential, and it has been
+                                    used in emblematic gardens such as those of Queluz National Palace and that at
+                                    Parque das Nações.<br>
+                                    This potential is confirmed at flowering time by the exuberance
+                                    of countless magnificent and fragrant clusters of white flowers that delight bees
+                                    and many other pollinating insects. According to the Red List of the Vascular Flora
+                                    of Mainland Portugal, the Portugal laurel is classified as Near Threatened.<br>
+                                    Portugal
+                                    laurel stands constitute a Priority Habitat for Nature Conservation at the European
+                                    level (Habitat code 5230 under the Habitats Directive, transposed into Portuguese
+                                    legislation through Decree-Law No. 140/99, of 24 April).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="../assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/azereiro/azereiro_5.JPG" class="active">
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/azereiro/azereiro_1.jpg">
+                        <img class="slide" loading="lazy" src="../assets/data/fotos/flora/azereiro/azereiro_9.JPG">
+                    </div>
+
+                    <div class="span-4 ">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-flora5-close" src="../assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+        <menu-homepage pt-link="../flora3.html" en-link="flora3.html">
+        </menu-homepage>
+
+
+
+        <script src="../assets/js/menu.js"></script>
+        <script src="../assets/js/flora3.js"></script>
+        <script src="../assets/js/popup-slider.js"></script>
+        <script src="../assets/js/loading.js"></script>
+
+</body>
+
+</html>

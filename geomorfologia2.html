@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Serra do Açor</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="assets/js/components.js"></script>
+
+    <link rel="preload" as="image" href="assets/data/fotos/geomorfologia/geomorfologia_3.webp">
+</head>
+
+<body>
+    <div class="background-image">
+        <img src="assets/data/fotos/geomorfologia/geomorfologia_3.webp">
+    </div>
+    
+    <div class="body-flex">
+        <header>
+            <div class="header-left">
+                <div>
+                        <img onclick="window.location.href='index.html'" id="header-logo" src="assets/data/header/logo.svg">
+                </div>
+                <div>
+                        <h2 onclick="window.location.href='index.html'" id="header-title">Serra do Açor</h2>
+                    <div class="header-subtitle">
+                        <img id="header-arrow" src="assets/data/header/arrow-header.svg">
+                       <a href="geomorfologia1.html">
+                            <h2 id="header-subtitle">Geomorfologia</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-right">
+                <div class="header-language">
+                    <p class="language-selected">PT</p>
+                    <p>·</p>
+                    <p>EN</p>
+                </div>
+
+                <div class="header-menu">
+                    <img id="menu-button" src="assets/data/header/menu-header.svg">
+                </div>
+            </div>
+        </header>
+
+
+        <main>
+            <div class="grid main-content">
+                <div class="span-4">
+                    <p class="p-big">A Serra do Açor situa-se na Cordilheira Central portuguesa.
+                        No sec. XIl esta Cordilheira era considerada uma unidade conhecida por Serra do Ermio.
+                        Hoje reconhecem-se três serras diferentes: Serra da Estrela, Serra do Açor e Serra da Lousã.</p>
+                </div>
+                <div class="span-3">
+                    <p>A rocha dominante na Serra do Açor é o xisto.
+                        As forças tectónicas que formaram a serra, aliadas à natureza desta rocha e à ação dos agentes
+                        erosivos, originaram um relevo caracterizado por formas arredondadas
+                        e sulcado por vales encaixados. As dobras
+                        e fraturas originam um tipo de relevo característico, vigoroso mas de contornos arredondados,
+                        sulcado por vales com grandes quedas de nível, linhas de água encaixadas
+                        e onde, por vezes, se encontram curiosos acidentes geológicos, como as quedas de água da Fraga
+                        da Pena.
+                    </p>
+                </div>
+
+                <div class="span-5 menu-inner-button-2">
+                    <menu-inner-button label="História" href="historia1.html"></menu-inner-button>
+                </div>
+                
+            </div>
+        </main>
+
+
+        <footer>
+            <footer-arrow direction="left" href="geomorfologia1.html"></footer-arrow>
+        </footer>
+
+        <menu-homepage pt-link="geomorfologia2.html" en-link="en/geomorfologia2.html">
+        </menu-homepage>
+
+
+        <script src="assets/js/menu.js"></script>
+</body>
+
+</html>

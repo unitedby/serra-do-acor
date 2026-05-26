@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Serra do Açor</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="assets/js/components.js"></script>
+
+    <link rel="preload" as="image" href="assets/data/fotos/flora/vegetaçao e flora.webp">
+
+    <link rel="preload" as="image" href="assets/data/fotos/flora/historia floresta/Historia floresta_7.webp">
+    <link rel="preload" as="image" href="assets/data/fotos/flora/especies raras ameacadas/Lilium martagon_4.webp">
+    <link rel="preload" as="image" href="assets/data/fotos/flora/carvalhal/Quercus robur_1.webp">
+    <link rel="preload" as="image" href="assets/data/fotos/flora/vegetacao ribeirinha/vegetacao ribeirinha_3.webp">
+    <link rel="preload" as="image" href="assets/data/fotos/flora/azereiro/azereiro_3.webp">
+</head>
+
+<body>
+
+    <div id="loading-screen">
+        <p id="loading-text">A carregar...</p>
+        <div id="loading-bar-track">
+            <div id="loading-bar-fill"></div>
+        </div>
+    </div>
+
+    <div class="background-image">
+        <img src="assets/data/fotos/flora/vegetaçao e flora.webp">
+    </div>
+
+    <div class="body-flex">
+        <header>
+            <div class="header-left">
+                <div>
+                    <img onclick="window.location.href='index.html'" id="header-logo" src="assets/data/header/logo.svg">
+                </div>
+                <div>
+                    <h2 onclick="window.location.href='index.html'" id="header-title">Serra do Açor</h2>
+                    <div class="header-subtitle">
+                        <img id="header-arrow" src="assets/data/header/arrow-header.svg">
+                        <a href="flora1.html">
+                            <h2 id="header-subtitle">Vegetação e Flora</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-right">
+                <div class="header-language">
+                    <p class="language-selected">PT</p>
+                    <p>·</p>
+                    <a href="en/flora3.html">
+                        <p>EN</p>
+                    </a>
+                </div>
+
+                <div class="header-menu">
+                    <img id="menu-button" src="assets/data/header/menu-header.svg">
+                </div>
+            </div>
+        </header>
+
+
+        <main>
+            <div class="grid">
+                <div class="span-3 menu-inner-text">
+                    <p>A relação existente entre solo, clima e atividade humana é determinante na distribuição e
+                        caraterísticas do coberto vegetal. Podem, por isso, ser Identificadas na Serra do Açor
+                        diferentes unidades de vegetação com estrutura e composição diferentes, consoante variam as
+                        características daqueles fatores.</p>
+                </div>
+
+                <div class="span-1"></div>
+
+                <div class="span-8 menu-inner">
+                    <div class="menu-inner-row">
+                        <!--menu item-->
+                        <div id="menu-inner-flora0" class="span-2">
+                        </div>
+                        <!--menu item-->
+                        <div id="menu-inner-flora1" class="span-2 menu-inner-item">
+                            <div class="menu-container-image inverted-radius">
+                                <img src="assets/data/fotos/flora/historia floresta/Historia floresta_7.webp">
+                                <div class="menu-title">
+                                    <h3>História da floresta da Serra do Açor</h3>
+                                </div>
+                            </div>
+                            <div class="menu-knowmore">
+                                <p>Saber mais</p>
+                                <img src="assets/data/icons/menu-arrow.svg">
+                            </div>
+                        </div>
+                        <!--menu item-->
+                        <div id="menu-inner-flora2" class="span-2 menu-inner-item">
+                            <div class="menu-container-image inverted-radius">
+                                <img src="assets/data/fotos/flora/especies raras ameacadas/Lilium martagon_4.webp">
+                                <div class="menu-title">
+                                    <h3>Espécies<br>ameaçadas</h3>
+                                </div>
+                            </div>
+                            <div class="menu-knowmore">
+                                <p>Saber mais</p>
+                                <img src="assets/data/icons/menu-arrow.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-inner-row">
+                        <!--menu item-->
+                        <div id="menu-inner-flora3" class="span-2 menu-inner-item">
+                            <div class="menu-container-image inverted-radius">
+                                <img src="assets/data/fotos/flora/carvalhal/Quercus robur_1.webp">
+                                <div class="menu-title">
+                                    <h3>Carvalhal</h3>
+                                </div>
+                            </div>
+                            <div class="menu-knowmore">
+                                <p>Saber mais</p>
+                                <img src="assets/data/icons/menu-arrow.svg">
+                            </div>
+                        </div>
+                        <!--menu item-->
+                        <div id="menu-inner-flora4" class="span-2 menu-inner-item">
+                            <div class="menu-container-image inverted-radius">
+                                <img src="assets/data/fotos/flora/vegetacao ribeirinha/vegetacao ribeirinha_3.webp">
+                                <div class="menu-title">
+                                    <h3>Vegetação<br>Ribeirinha</h3>
+                                </div>
+                            </div>
+                            <div class="menu-knowmore">
+                                <p>Saber mais</p>
+                                <img src="assets/data/icons/menu-arrow.svg">
+                            </div>
+                        </div>
+                        <!--menu item-->
+                        <div id="menu-inner-flora5" class="span-2 menu-inner-item">
+                            <div class="menu-container-image inverted-radius">
+                                <img src="assets/data/fotos/flora/azereiro/azereiro_3.webp">
+                                <div class="menu-title">
+                                    <h3>Azereiro</h3>
+                                </div>
+                            </div>
+                            <div class="menu-knowmore">
+                                <p>Saber mais</p>
+                                <img src="assets/data/icons/menu-arrow.svg">
+                            </div>
+                        </div>
+                        <!--button menu-->
+                        <div class="span-2 menu-inner-button-container">
+                            <menu-inner-button label="Fauna" href="fauna1.html"></menu-inner-button>
+                        </div>
+
+                    </div>
+                </div>
+        </main>
+
+
+        <footer>
+            <footer-arrow direction="left" href="flora2.html"></footer-arrow>
+        </footer>
+
+
+
+
+
+
+
+        <!--POP UP 1-->
+        <div id="popup-flora1" class="popup grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>História da floresta<br>da Serra do Açor</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    Durante o Período Terciário predominou no nosso território uma vegetação
+                                    subtropical.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    Entre os 5 e 3 milhões de anos, esta vegetação, nas áreas mais interiores de
+                                    montanha, era dominada por espécies lauriformes perenifólias (espécies de folha
+                                    perene e que fazem lembrar o loureiro). Algumas das espécies dominantes pertenciam a
+                                    géneros como Sequoia e Liquidambar e poderíamos encontrar espécies
+                                    como <em>Rhododendron ponticum</em> (loendros) e <em>Prunus lusitanica</em>
+                                    (azereiro).<br><br>
+
+                                    Há cerca de 3 milhões de anos deu-se uma progressiva diminuição das precipitações
+                                    estivais o que levou à instalação de um clima mediterrânico. Por esta altura
+                                    começaram a dominar plantas pertencentes a géneros mais mediterrânicos:
+                                    <em>Olea</em> (o género da oliveira), <em>Pistacia</em>, <em>Phillyrea</em> (o
+                                    aderno) e os <em>Quercus</em> (carvalhos)… Há 1,8 milhões de anos começaram as
+                                    glaciações do período Quaternário. O clima frio e seco favoreceu uma vegetação
+                                    semelhante às estepes, dominada por espécies herbáceas e algumas arbustivas (como as
+                                    urzes). No entanto, em vales encaixados das áreas montanhosas sobreviveram algumas
+                                    relíquias da floresta terciária. O azereiro é uma dessas espécies relíquia. Os
+                                    carvalhos também se terão refugiado nestes vales mais abrigados. Só há cerca de 10
+                                    mil anos, com o fim das glaciações, as espécies florestais começaram a expandir-se a
+                                    partir destas zonas mais abrigadas. A partir desta altura o nosso território passou
+                                    a estar coberto por uma floresta dominada pelos carvalhos.<br><br>
+
+                                    No entanto, esta floresta cedo apresentou sinais das atividades humanas que então
+                                    começavam a desenvolver-se: há cerca de 9 mil anos deu-se, com a revolução
+                                    neolítica, a “invenção” da agricultura e da pastorícia.<br>
+
+                                    A partir daqui e ao longo de milhares de anos o Homem arrebatou território à
+                                    floresta primitiva, normalmente através do fogo, para o converter em áreas agrícolas
+                                    ou para pasto de animais domésticos. Mais próximo de nós, entre os séculos XII a
+                                    XVII, praticamente acabámos por destruir toda a nossa floresta nativa. À pastorícia
+                                    e agricultura somou-se a carvoaria e a construção naval: a construção de uma única
+                                    nau exigia o corte de milhares de carvalhos. Assim, a floresta que chegou ao século
+                                    XX era pobre e grande parte do país encontrava-se coberto por matos.<br>
+
+                                    As plantações de pinheiro-bravo e de eucalipto em grande escala, que hoje
+                                    caracterizam a nossa paisagem, resultam do trabalho de reflorestação que aconteceu
+                                    durante a segunda metade do século XX. No entanto, estes povoamentos nada têm a ver
+                                    com a floresta que naturalmente se adapta às nossas condições climáticas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/historia floresta/Historia floresta_6.webp" class="active">
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/historia floresta/Historia floresta_2.webp">
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/historia floresta/Historia floresta_5.webp">
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/historia floresta/Historia floresta_7.webp">
+                    </div>
+
+                    <div class="span-4 ">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-flora1-close" src="assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+        <!--POP UP 2-->
+        <div id="popup-flora2" class="popup grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Espécies<br>Ameaçadas</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    Encontram-se referenciadas para a PPSA 336 espécies da flora, pertencentes a 71
+                                    famílias diferentes.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    Entre as espécies da flora presentes nesta Área Protegida encontram-se espécies com
+                                    estatuto de ameaça de acordo com o Livro Vermelho da Flora Vascular de Portugal
+                                    Continental: <em>Epipactis fageticola</em> – Em Perigo; <em>Neotia nidus-avis (L.)
+                                        Rich.</em> –
+                                    Vulnerável; <em>Lilium martagon </em>– Vulnerável; <em>Veronica micrantha</em> –
+                                    Quase ameaçada;
+                                    <em>Prunus lusitanica</em> subsp. <em>lusitanica</em> – Quase ameaçada.<br>
+                                    O número de espécies da flora que integram os diferentes anexos da Diretiva Habitats
+                                    são indicativas da importância da flora da Serra do Açor para a conservação da
+                                    natureza a nível internacional. Nesta situação contam-se espécies como
+                                    <em>Murbeckiella
+                                        sousae Rothm.</em> (Anexo IV), <em>Scrophularia grandiflora DC.</em> (Anexo V),
+                                    <em>Veronica micrantha
+                                        Hoffmanns. & Link</em> (Anexo II), <em>Festuca summilusitana Franco & Rocha
+                                    Afonso</em> (Anexo
+                                    II), <em>Ruscus aculeatus L.</em> (Anexo V), <em>Narcissus bulbocodium L.</em>
+                                    subsp.
+                                    <em>bulbocodium</em>
+                                    (Anexo V), <em>Narcissus triandrus L.</em> subsp. <em>pallidulus</em> (Graells)
+                                    <em>Rivas
+                                        Goday</em> (Anexo
+                                    IV).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button" id="popup-secondary-2-2">
+                                <p>Veronica micrantha</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                         <div class="slide">
+                             <img loading="lazy" src="assets/data/fotos/flora/especies raras ameacadas/Scrophularia grandiflora_2.webp"
+                            class="active">
+                            <div class="slide-caption">
+                                <p>Scrophularia grandiflora</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                             <img loading="lazy" src="assets/data/fotos/flora/especies raras ameacadas/Ruscus aculeatus.webp">
+                            <div class="slide-caption">
+                                <p>Ruscus aculeatus</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                             <img loading="lazy" src="assets/data/fotos/flora/especies raras ameacadas/Lilium martagon_2.webp">
+                            <div class="slide-caption">
+                                <p>Lilium martagon</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/flora/especies raras ameacadas/Ilex aquifoilium.webp">
+                            <div class="slide-caption">
+                                <p>llex aquifoilium</p>
+                            </div>
+                        </div>
+                            
+                         <div class="slide">
+                           <img loading="lazy" src="assets/data/fotos/flora/especies raras ameacadas/Eryngium duriaei_1.webp">
+                            <div class="slide-caption">
+                                <p>Eryngium duriaei</p>
+                            </div>
+                        </div>
+                        
+                        <div class="slide">
+                           <img loading="lazy" src="assets/data/fotos/flora/especies raras ameacadas/Murbeckiella sousae.webp">
+                            <div class="slide-caption">
+                                <p>Murbeckiella sousae</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/flora/especies raras ameacadas/Narcissus triandrus.webp">
+                            <div class="slide-caption">
+                                <p>Narcissus triandrus</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/flora/especies raras ameacadas/Poligonatum odoratum.webp">
+                            <div class="slide-caption">
+                                <p>Poligonatum odoratum</p>
+                            </div>
+                        </div>
+                        
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/flora/especies raras ameacadas/Epipatis.webp">
+                            <div class="slide-caption">
+                                <p>Epipatis</p>
+                            </div>
+                        </div>                        
+                    </div>
+
+                    <div class="span-4">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-flora2-close" src="assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+
+
+        <!--POP UP 2-2-->
+        <div id="popup-flora2-2" class="popup popup-secondary grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Veronica<br>Micrantha</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    <em>Veronica micrantha</em> é uma pequena herbácea de pequenas flores rosadas,
+                                    endemismo do
+                                    quadrante noroeste ibérico.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    Em Portugal encontra-se dispersa pelas regiões do Norte e Beiras, sendo mais
+                                    abundante nas áreas montanhosas. É uma espécie característica de orlas húmidas de
+                                    bosques, nomeadamente em terrenos ribeirinhos e margem de lameiros, surgindo também,
+                                    em aparente expansão, em caminhos rurais com passagem de água. A tendência nacional
+                                    desta espécie é incerta, no entanto a ZEC está incluída num dos territórios onde
+                                    esta espécie se desenvolve favoravelmente, a serra do Açor (Carapeto et al., 2020).
+                                    Na ZEC só é conhecida na área da PP Serra do Açor. Em 2010 contabilizaram-se 31
+                                    núcleos populacionais na Mata da Margaraça propriamente dita, correspondendo a 282
+                                    indivíduos, e 1 núcleo nas orlas de antigos terrenos agrícolas próximo de Pardieiros
+                                    com 268 indivíduos, pelo que a população estimada foi de 550 indivíduos (extraído do
+                                    Relatório do Plano
+                                    de Gestão da ZEC Complexo do Açor).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/flora/especies raras ameacadas/Veronica micrantha_4.webp"
+                            class="active">
+                            <div class="slide-caption">
+                                <p>Veronica micrantha</p>
+                            </div>
+                        </div>     
+                    </div>
+
+                    <div class="span-4 appearance-none">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-flora2-2-close" src="assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+        <!--POP UP 3-->
+        <div id="popup-flora3" class="popup grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Carvalhal –<br>a Mata da Margaraça</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    Na Serra do Açor a espécie de carvalho mais frequente é o carvalho-alvarinho, mas
+                                    podem observar-se outras como o carvalho-negral, o sobreiro e a azinheira.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    A floresta que passou a dominar a paisagem após o final da última glaciação (há
+                                    cerca de 10 000 anos) era dominada pelos carvalhos. Os carvalhais são florestas
+                                    muito ricas em espécies. A Mata da Margaraça é uma pequena parte desse imenso
+                                    carvalhal que, em tempos, cobria esta serra. Em enclaves da serra resistem pequenas
+                                    e raras relíquias da floresta primitiva desta região:
+                                    o carvalhal, dominado pelo carvalho-alvarinho (<em>Quercus robur</em>) e acompanhado
+                                    por um
+                                    numeroso séquito de espécies vegetais (castanheiros, ulmeiros, azereiros, azevinhos,
+                                    aveleiras, folhados, medronheiros…).<br><br>
+
+                                    A Mata da Margaraça é o exemplo mais bem conservado desta floresta. Dominam o
+                                    estrato arbóreo o carvalho-roble ou alvarinho <em>Quercus robur</em> e o castanheiro
+                                    <em>Castanea
+                                        sativa</em>, existindo alguns exemplares muito antigos destas duas espécies.
+                                    Embora menos
+                                    abundantes encontram-se outras espécies de folha caduca, tais como aveleiras,
+                                    ulmeiros, cerejeiras e nogueiras. Esta mata caracteriza-se pela presença de
+                                    elementos de cariz mediterrânico, caso do medronheiro <em>Arbutus unedo</em>, do
+                                    folhado
+                                    <em>Viburnum tinus</em> e do loureiro <em>Laurus nobilis</em>.<br>
+                                    A sua flora é muito interessante, encontrando-se na Mata da Margaraça
+                                    a maior população conhecida de azereiro <em>Prunus lusitanica</em> subsp. <em>lusitanica</em>
+                                    de toda
+                                    a sua área de distribuição. Esta espécie é uma relíquia da floresta laurissilva
+                                    subtropical do Terciário. Destaque, ainda, para uma pequena população do raro
+                                    endemismo ibérico a <em>Veronica micrantha</em>. Entre as espécies herbáceas que
+                                    passam o
+                                    inverno na forma de bolbo há espécies interessantes da flora portuguesa, tais como o
+                                    martagão <em>Lilium martagon</em>, o selo-de-salomão <em>Polygonatum odoratum</em>,
+                                    um narciso
+                                    <em>Narcissus triandrus</em>, uma espécie de cardo <em>Eryngium duriaei</em> e
+                                    várias espécies de
+                                    orquídeas, como <em>Cephalanthera longifolia</em> e <em>Orchis mascula</em>.<br><br>
+
+                                    Aqui encontram o seu habitat preferencial um grande número de espécies: 249 espécies
+                                    de plantas vasculares, 98 espécies de musgos e 53 de hepáticas, 257 espécies de
+                                    fungos e, entre a fauna, 279 espécies, das quais 194 borboletas, 5 anfíbios, 8
+                                    répteis, 39 aves e 32 mamiferos. Neste tipo de floresta os estratos arbóreo e
+                                    arbustivo são densos, o que contribui para a criação de um ambiente sombrio, húmido
+                                    e com variações de temperatura mais pequenas do que as do exterior do bosque. Esta é
+                                    a principal razão porque o estrato herbáceo é pobre em diversidade e constituído, na
+                                    sua maioria, por espécies adaptadas a condições de humidade e baixa luminosidade.
+                                    Assim se compreende a presença de 17 espécies diferentes de fetos. As espécies
+                                    herbáceas desenvolvem outras adaptações a estas condições, como exemplo pode
+                                    referir-se a <em>Primula acaulis</em>, ‘Primula’, porque a primeira
+                                    a florir, no final do Inverno, quando as agruras do clima já se amenizaram e chega
+                                    muita luz ao solo por as folhas das árvores caducifólias ainda não terem brotado. O
+                                    equilíbrio dinâmico de uma floresta caducifólia é complexo e integra um sem número
+                                    de processos de interação entre todos os seres vivos que o compõem, quer entre
+                                    indivíduos da mesma espécie quer entre espécies diferentes, e destes com os
+                                    componentes abióticos do meio (química e física do solo, temperatura, humidade,
+                                    luminosidade, clima, etc). Desde a importância da matéria orgânica presente nos
+                                    organismos que vão morrendo, aos grandes responsáveis pela sua decomposição (as
+                                    bactérias e os fungos), passando por toda a cadeia alimentar que se inicia nas
+                                    plantas, capazes de incorporar a energia do sol no sistema florestal através da
+                                    fotossíntese, e termina nos predadores como a raposa, a geneta e as aves de rapina,
+                                    existem um sem número de exemplos destas interações. Na floresta cada ser vivo, cada
+                                    espécie, tem o seu lugar indispensável no equilíbrio do todo. A floresta é também
+                                    fundamental para a formação
+                                    e manutenção do solo, regulação do clima, para a regulação do ciclo da água, e de
+                                    muito nutrientes. Sem a floresta a atmosfera não seria purificada do dióxido de
+                                    carbono
+                                    e muitas espécies de seres vivos perderiam
+                                    a possibilidade de sobrevivência pois estão adaptados a este tipo de habitat.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/carvalhal/carvalhal_12.webp" class="active">
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/carvalhal/Quercus robur_2.webp">
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/flora/carvalhal/primula vulgaris.webp">
+                            <div class="slide-caption">
+                                <p>Primula vulgaris</p>
+                            </div>
+                        </div>
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/carvalhal/carvalhal_2.webp">
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/carvalhal/carvalhal_13.webp">
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/carvalhal/carvalhal_1.webp">
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/carvalhal/carvalhal_11_vertical.JPG">
+                        
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/flora/carvalhal/Quercus robur_1.webp">
+                            <div class="slide-caption">
+                                <p>Quercus robur</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-4 ">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-flora3-close" src="assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+
+        <!--POP UP 4-->
+        <div id="popup-flora4" class="popup grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Vegetação<br>Ribeirinha</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    Estas comunidades acompanham grande parte das linhas de água da Serra do Açor,
+                                    formando galerias nas suas margens.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    Muitas vezes ocupam o fundo de vales encaixados, onde não sofreram tão drasticamente
+                                    os efeitos dos incêndios florestais.<br><br>
+
+                                    As espécies dominantes nas galerias ribeirinhas da Serra do Açor são os salgueiros
+                                    (<em>Salix atrocinera</em> e <em>Salix salviifolia</em>), o azereiro (<em>Prunus
+                                        lusitanica</em> subsp. <em>lusitanica</em>), o loureiro (<em>Laurus
+                                        nobilis</em>), surgindo também espécies como o sabugueiro (<em>Sambucus
+                                        nigra</em>), o sanguinho (<em>Frangula alnus</em>), o amieiro (<em>Alnus
+                                        glutinosa</em>), o folhado (<em>Viburnum tinus</em>), o medronheiro (<em>Arbutus
+                                        unedo</em>), o azevinho (<em>Ilex aquifolium</em>) e o pilriteiro (<em>Crataegus
+                                        monogyna</em>). Junto às linhas
+                                    de água é ainda possível observar galerias de vegetação autóctone bem preservada. A
+                                    frescura das águas e da vegetação que aqui cresce (espécies adaptadas à proximidade
+                                    da água corrente) contribui para que estas áreas sejam mais poupadas pelo
+                                    fogo.<br><br>
+
+                                    No estrato arbustivo e herbáceo surgem espécies como <em>Oenanthe crocata</em>,
+                                    <em>Saponaria officinalis</em>, <em>Erica arborea</em>, <em>Myosotis secunda</em>,
+                                    <em>Erica lusitanica</em>, <em>Apium nodiflorum</em>, <em>Bryonia dioica</em>,
+                                    <em>Hedera helix</em>, <em>Rubus</em> sp., <em>Tamus communis</em>, <em>Asplenium
+                                        onopteris</em>, <em>Athyrium filix-femina</em>, <em>Blechnum spicant</em>,
+                                    <em>Dryopteris affinis</em>, <em>Osmunda regalis</em>, <em>Polystichum
+                                        setiferum</em>, <em>Luzula sylvatica</em> subsp. <em>henriquesii</em>,
+                                    <em>Scrophularia scorodonia</em>, <em>Saxifraga spathularis</em>, <em>Euphorbia
+                                        dulcis</em>.<br><br>
+
+                                    A presença de amieiro acompanhado por espécies como o azevinho (<em>Ilex
+                                        aquifolium</em>), o loureiro (<em>Laurus nobilis</em>), <em>Luzula
+                                        sylvatica</em> subsp. <em>henriquesii</em>, <em>Scrophularia scorodonia</em>,
+                                    <em>Saxifraga spathularis</em> e <em>Euphorbia dulcis</em> apontam para a presença
+                                    do habitat *91EO da Directiva Habitats (habitat prioritário para a
+                                    conservação).<br><br>
+
+                                    A presença, por vezes abundante, de azereiros, espécie com grande interesse
+                                    científico e ornamental e uma área de distribuição restrita e constituída por
+                                    pequenas populações relíquia, contribui para o elevado valor conservacionista destas
+                                    comunidades. Acresce que o azereiro é um bom indicador de ecossistemas relíquia,
+                                    habitats preferenciais para um grande número de espécies, em particular de
+                                    briófitos. As galerias ripícolas funcionam também como corredores
+                                    ecológicos.<br><br>
+
+                                    Como foi já referido, estas comunidades acompanham linhas de água, muitas vezes no
+                                    fundo de vales encaixados onde os efeitos dos incêndios florestais não se fizeram
+                                    sentir com a mesma intensidade das encostas adjacentes. Funcionam, assim, como
+                                    refúgios da fauna, facilitando a mobilidade e abrigo a numerosas espécies,
+                                    fornecendo também microhabitats sombrios e húmidos, necessários para o
+                                    desenvolvimento de muitas espécies da flora. Esta comunidade desempenha ainda um
+                                    papel importante na prevenção da erosão, contribuindo para a formação e retenção do
+                                    solo. Salienta-se igualmente a importância das galerias ripícolas como barreiras que
+                                    dificultam a propagação dos incêndios.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/vegetacao ribeirinha/vegetacao ribeirinha_4.webp"
+                            class="active">
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/vegetacao ribeirinha/vegetacao ribeirinha_2.jpg">
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/vegetacao ribeirinha/vegetacao ribeirinha_3.webp">
+                    </div>
+
+                    <div class="span-4 ">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-flora4-close" src="assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+
+        <!--POP UP 5-->
+        <div id="popup-flora5" class="popup grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Azereiro <em>Prunus lusitanica<br>L.</em> subsp. <em>lusitanica</em></h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    O azereiro, <em>Prunus lusitanica</em> subsp. <em>lusitanica</em>, ocupa um lugar de destaque no
+                                    conjunto de espécies que integram a Mata da Margaraça.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    É uma espécie com elevado interesse científico e ornamental, com uma área de
+                                    distribuição restrita e indicadora de comunidades e ecossistemas relíquia,
+                                    importantes para a conservação da biodiversidade. Segundo alguns autores,
+                                    encontram-se na Serra do Açor as maiores populações de azereiro de toda a sua área
+                                    de distribuição, sendo a Mata da Margaraça, a maior atualmente existente.<br><br>
+
+                                    Esta espécie integrava a floresta subtropical que cobriu este território durante
+                                    muitos milhões de anos durante o período Terciário, tendo depois sobrevivido às
+                                    glaciações do Quaternário em vales mais abrigados.
+                                    Há sessenta e cinco milhões de anos, numa altura em que o clima era mais quente
+                                    e húmido e muito antes que as glaciações cobrissem de gelo grande parte do que hoje
+                                    é o território nacional, existia aqui uma floresta que podemos denominar de
+                                    Laurissilva, por ser dominada por espécies laurifólias, ou seja, com folhas
+                                    semelhantes às do loureiro, largas e lustrosas.<br><br>
+
+                                    A sua área de distribuição natural atual vai desde os Pirenéus Ocidentais até às
+                                    montanhas de Marrocos, tendo o seu ótimo na Península Ibérica. Em Portugal ocorre no
+                                    Gerês e nas zonas montanhosas da cordilheira central, Estrela, Açor e Lousã,
+                                    estendendo-se a Sul até ao concelho de Mação. A sua bonita folhagem perene
+                                    confere-lhe um grande potencial como espécie ornamental e foi utilizada em jardins
+                                    carismáticos como os do Palácio Nacional de Queluz e no Parque das Nações.<br>
+                                    Este potencial é confirmado na época da floração pela exuberância de uma miríade de
+                                    magníficos e perfumados cachos de flores brancas que fazem as delícias das abelhas
+                                    e de muitos outros insetos polinizadores.<br>
+                                    Segundo a Lista Vermelha da Flora Vascular de Portugal Continental, o azereiro é uma
+                                    espécie com estatuto de Quase Ameaçada.<br>
+                                    Os azereirais constituem um Habitat Prioritário para a Conservação da Natureza a
+                                    nível europeu (Habitat com o código 5230 da Diretiva Habitats, transposta para a
+                                    legislação nacional pelo Decreto–Lei n.º 140/99, de 24 de abril).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/azereiro/azereiro_5.JPG" class="active">
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/azereiro/azereiro_1.jpg">
+                        <img class="slide" loading="lazy" src="assets/data/fotos/flora/azereiro/azereiro_9.JPG">
+                    </div>
+
+                    <div class="span-4 ">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-flora5-close" src="assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+        <menu-homepage pt-link="flora3.html" en-link="en/flora3.html">
+        </menu-homepage>
+
+
+
+        <script src="assets/js/menu.js"></script>
+        <script src="assets/js/flora3.js"></script>
+        <script src="assets/js/popup-slider.js"></script>
+        <script src="assets/js/loading.js"></script>
+
+</body>
+
+</html>

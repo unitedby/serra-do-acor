@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Serra do Açor</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="assets/js/components.js"></script>
+
+    <link rel="preload" as="image" href="assets/data/fotos/fauna/aves/Accipiter-gentilis_2.webp">
+
+    <link rel="preload" as="image" href="assets/data/fotos/fauna/repteis/Lacerta schreiberi_square.webp">
+    <link rel="preload" as="image" href="assets/data/fotos/fauna/invertebrabos/Euplagia quadripunctaria_1.webp">
+    <link rel="preload" as="image" href="assets/data/fotos/fauna/anfibios/Rana_iberica_vertical.webp">
+    <link rel="preload" as="image" href="assets/data/fotos/fauna/mamiferos/myotis bechsteinii.webp">
+    <link rel="preload" as="image" href="assets/data/fotos/fauna/aves/Asio flammeus_1.webp">
+</head>
+
+<body>
+
+    <div id="loading-screen">
+        <p id="loading-text">A carregar...</p>
+        <div id="loading-bar-track">
+            <div id="loading-bar-fill"></div>
+        </div>
+    </div>
+
+    <div class="background-image">
+        <img src="assets/data/fotos/fauna/aves/Accipiter-gentilis_2.webp">
+    </div>
+
+    <div class="body-flex">
+        <header>
+            <div class="header-left">
+                <div>
+                    <img onclick="window.location.href='index.html'" id="header-logo" src="assets/data/header/logo.svg">
+                </div>
+                <div>
+                    <h2 onclick="window.location.href='index.html'" id="header-title">Serra do Açor</h2>
+                    <div class="header-subtitle">
+                        <img id="header-arrow" src="assets/data/header/arrow-header.svg">
+                        <a href="fauna1.html">
+                            <h2 id="header-subtitle">Fauna</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-right">
+                <div class="header-language">
+                    <p class="language-selected">PT</p>
+                    <p>·</p>
+                    <a href="en/fauna3.html">
+                    <p>EN</p>
+                    </a>
+                </div>
+
+                <div class="header-menu">
+                    <img id="menu-button" src="assets/data/header/menu-header.svg">
+                </div>
+            </div>
+        </header>
+
+
+        <main>
+            <div class="grid">
+                <div class="span-3 menu-inner-text">
+                    <p>Os biótopos que constituem esta Área Protegida possibilitam a existência de uma fauna bastante
+                        diversificada e a ocorrência de alguns endemismos ibéricos que incrementam o seu valor
+                        ecológico.<br>
+                        De entre os biótopos mais relevantes para a fauna destacam-se as florestas de folhosas, as
+                        galerias ripícolas, os matos e as áreas agrícolas e de olival.<br>
+                        <br>
+                        Os biótopos que albergam maior número de espécies da fauna e as espécies mais importantes para a
+                        conservação são as comunidades de folhosas autóctones, seguidas das comunidades ribeirinhas.
+                    </p>
+                </div>
+
+                <div class="span-1"></div>
+
+                <div class="span-8 menu-inner">
+                    <div class="menu-inner-row">
+
+                        <!--menu item-->
+                        <div id="menu-inner-fauna1" class="span-2 menu-inner-item">
+                            <div class="menu-container-image inverted-radius">
+                                <img src="assets/data/fotos/fauna/repteis/Lacerta schreiberi_square.webp">
+                                <div class="menu-title">
+                                    <h3>Répteis</h3>
+                                </div>
+                            </div>
+                            <div class="menu-knowmore">
+                                <p>Saber mais</p>
+                                <img src="assets/data/icons/menu-arrow.svg">
+                            </div>
+                        </div>
+
+                        <!--menu item-->
+                        <div id="menu-inner-fauna2" class="span-2 menu-inner-item">
+                            <div class="menu-container-image inverted-radius">
+                                <img src="assets/data/fotos/fauna/invertebrabos/Euplagia quadripunctaria_1.webp">
+                                <div class="menu-title">
+                                    <h3>Invertebrados</h3>
+                                </div>
+                            </div>
+                            <div class="menu-knowmore">
+                                <p>Saber mais</p>
+                                <img src="assets/data/icons/menu-arrow.svg">
+                            </div>
+                        </div>
+
+                        <!--menu item-->
+                        <div id="menu-inner-fauna3" class="span-2 menu-inner-item">
+                            <div class="menu-container-image inverted-radius">
+                                <img src="assets/data/fotos/fauna/anfibios/Rana_iberica_vertical.webp">
+                                <div class="menu-title">
+                                    <h3>Anfíbios</h3>
+                                </div>
+                            </div>
+                            <div class="menu-knowmore">
+                                <p>Saber mais</p>
+                                <img src="assets/data/icons/menu-arrow.svg">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="menu-inner-row">
+                        <!--menu item-->
+                        <div id="menu-inner-fauna4" class="span-2 menu-inner-item">
+                            <div class="menu-container-image inverted-radius">
+                                <img src="assets/data/fotos/fauna/mamiferos/myotis bechsteinii.webp">
+                                <div class="menu-title">
+                                    <h3>Mamíferos</h3>
+                                </div>
+                            </div>
+                            <div class="menu-knowmore">
+                                <p>Saber mais</p>
+                                <img src="assets/data/icons/menu-arrow.svg">
+                            </div>
+                        </div>
+                        <!--menu item-->
+                        <div id="menu-inner-fauna5" class="span-2 menu-inner-item">
+                            <div class="menu-container-image inverted-radius">
+                                <img src="assets/data/fotos/fauna/aves/Asio flammeus_1.webp">
+                                <div class="menu-title">
+                                    <h3>Aves</h3>
+                                </div>
+                            </div>
+                            <div class="menu-knowmore">
+                                <p>Saber mais</p>
+                                <img src="assets/data/icons/menu-arrow.svg">
+                            </div>
+                        </div>
+
+                        <!--button menu-->
+                        <div class="span-2 menu-inner-button-container">
+                            <menu-inner-button label="Geomorfologia" href="geomorfologia1.html"></menu-inner-button>
+                        </div>
+
+                    </div>
+                </div>
+        </main>
+
+
+        <footer>
+            <footer-arrow direction="left" href="fauna2.html"></footer-arrow>
+        </footer>
+
+
+
+
+        <!--POP UP 1-->
+        <div id="popup-fauna1" class="popup grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Répteis</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    As 11 espécies de répteis presentes na Paisagem Protegida da Serra do Açor
+                                    encontram-se todas protegidas pela Convenção de Berna.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    Destaca-se o lagarto-de-água (<em>Lacerta schreiberi</em>), espécie incluída também
+                                    nos anexos B-II e B-IV da Diretiva Habitats, e a víbora-cornuda (<em>Vipera latastei</em>),
+                                    espécie com estatuto de Vulnerável segundo o Livro Vermelho dos Vertebrados de Portugal.<br><br>
+
+                                    Lagarto-de-água (<em>Lacerta schreiberi</em>) - É um réptil endémico da Península Ibérica, 
+                                    que se distribui essencialmente em áreas
+                                    de influência climática marcadamente atlântica no noroeste da península, ainda que
+                                    também esteja presente em alguns núcleos isolados no sul. Em Portugal ocorre de
+                                    forma quase contínua a norte do Tejo, com exceção das áreas litorais entre Leiria e
+                                    o rio Tejo, onde surge de forma fragmentada. No sul ocorre em quatro núcleos
+                                    populacionais distintos e isolados: Serra de Monchique, Serra do Cercal e Serra de
+                                    São Mamede e Ponte de Sor. Na ZEC Complexo do Açor apresenta uma distribuição ampla;
+                                    apresentando toda a área da ZEC potencial para a presença da espécie, em áreas de
+                                    biótopos adequados. Encontra-se preferencialmente nas margens de linhas de água
+                                    permanentes, com vegetação ripícola bem desenvolvida. É considerada uma espécie
+                                    muito seletiva em termos de habitat. Entre os principais fatores de ameaça
+                                    salientam-se as frequentes intervenções de regularização das margens das linhas de
+                                    água, extração de inertes, limpeza das orlas ripícolas e poluição aquática,
+                                    responsáveis pela degradação e redução do habitat adequado (ICNF, 2019). (extraído
+                                    do Relatório do Plano de Gestão da ZEC Complexo do Açor).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img loading="lazy" src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <div class="slide">
+                             <img loading="lazy" src="assets/data/fotos/fauna/repteis/Lacerta schreiberi_vertical.webp" class="active">
+                            <div class="slide-caption">
+                                <p>Lacerta schreiberi</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+
+                    <div class="span-4 appearance-none">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-fauna1-close" src="assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+        <!--POP UP 2-->
+        <div id="popup-fauna2" class="popup grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Invertebrados</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    As espécies de invertebrados dividem-se pelos seguintes grupos taxonómicos:
+                                </p>
+                                <p>120 espécies de macroinvertebrados aquáticos dos ribeiros da Mata da Margaraça; 61
+                                    espécies de colêmbolos terrestres; 241 espécies de borboletas.</p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    Destacam-se algumas espécies que se encontram protegidas a nível internacional,
+                                    nomeadamente a vaca-loura (<em>Lucanus cervus</em>), a fritilária-dos-lameiros
+                                    (<em>Euphydryas
+                                        aurinia</em>), <em>Gomphus graslinii</em>, <em>Euplagia quadripunctaria</em>,
+                                    <em>Oxygastra curtisii</em>
+                                    e <em>Macromia splendens.</em><br><br>
+
+                                    Vaca-loura (<em>Lucanus cervus</em>) - O maior escaravelho de Portugal e um dos
+                                    maiores
+                                    insetos da Europa, os machos de vaca-loura podem atingir os 8 cm de comprimento.
+                                    Tem cor castanha avermelhada e um acentuado dimorfismo sexual (i.e. machos
+                                    e fêmeas têm aspeto diferente), sendo a cabeça e as mandíbulas do macho muito
+                                    maiores do que as da fêmea, e usadas para
+                                    a defesa de território. Prefere carvalhais e outras florestas de caducifólias (em
+                                    que as árvores perdem as folhas e ficam despidas), mas também se encontra em
+                                    galerias ripícolas (da margem dos cursos de água), pomares, olivais e jardins,
+                                    sempre associado a árvores idosas. Os adultos alimentam-se de frutos e seiva de
+                                    plantas e as larvas de madeira em decomposição. Observa-se melhor na
+                                    primavera/verão.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button" id="popup-secondary-2-2">
+                                <p>Euphydryas aurinia</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+
+                            <div class="popup-button" id="popup-secondary-2-3">
+                                <p>E. quadripunctaria</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+
+                            <div class="popup-button" id="popup-secondary-2-4">
+                                <p>Oxygastra curtisii</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+
+                            <div class="popup-button" id="popup-secondary-2-5">
+                                <p>Macromia splendens</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/fauna/invertebrabos/Lucanus cervus_2.webp" class="active">
+                            <div class="slide-caption">
+                                <p>Lucanus cervus</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="span-4 appearance-none">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-fauna2-close" src="assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+
+
+        <!--POP UP 2-2-->
+        <div id="popup-fauna2-2" class="popup popup-secondary grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Euphydryas<br>aurinia</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    É uma espécie comum em Portugal, ocorrendo na maior parte do território continental.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    Está presente na ZEC Complexo do Açor, ocorrendo provavelmente em grande parte da
+                                    área da ZEC, em manchas de biótopos adequados (ICNF, 2019). O habitat preferencial
+                                    da espécie inclui biótopos com um certo grau de humidade, onde se desenvolvem as
+                                    plantas hospedeiras (<em>Lonicera periclymenum</em> e <em>L. etrusca</em>, <em>Succisa pratensis</em>, <em>Plantago
+                                    lanceolata</em>, <em>Scabiosa</em> spp.), encontrando-se em prados húmidos, turfeiras, incultos e
+                                    bermas de caminhos (Maravalhas, 2003; ICNF, 2006). De um modo geral, requer um
+                                    mosaico de floresta aberta (para reprodução) e prados (fase adulta), estrutura esta
+                                    que é mantida através de uma gestão tradicional. As principais ameaças estão
+                                    associadas à perda de conetividade entre áreas de habitat adequado, que pode
+                                    resultar da destruição da vegetação autóctone e da colonização por espécies não
+                                    indígenas invasoras ou do fogo (que atua tanto a nível de destruição direta de
+                                    indivíduos como das plantas hospedeiras).<br>
+                                    A intensificação da agricultura e a drenagem e aterro de zonas húmidas são também
+                                    fatores assinalados como responsáveis pela destruição dos habitats adequados e,
+                                    consequentemente, pela fragmentação
+                                    e isolamento das populações. Em princípio não se encontra ameaçada em Portugal, mas
+                                    encontra-se em declínio nas áreas urbanas e no litoral, onde a pressão humana é
+                                    maior. (extraído do Relatório do Plano de Gestão da ZEC Complexo do Açor).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/fauna/invertebrabos/Euphydryas aurinia_2_vertical.webp"
+                            class="active">
+                            <div class="slide-caption">
+                                <p>Euphydryas aurinia</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-4 appearance-none">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-fauna2-2-close" src="assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+        <!--POP UP 2-3-->
+        <div id="popup-fauna2-3" class="popup popup-secondary grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Euplagia<br>quadripunctaria</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    É uma mariposa de hábitos diurnos, amplamente distribuída na Península Ibérica e
+                                    comum na região mediterrânica, embora em Portugal possua uma distribuição
+                                    nitidamente fragmentada.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    De acordo com Maravalhas et al. (in prep.),
+                                    a espécie encontra-se em populações dispersas e localizadas na metade norte de
+                                    Portugal, onde ocupa habitats em áreas preferencialmente montanhosas.
+                                    A sul deverá estar confinada a áreas montanhosas com florestas conservadas, como as
+                                    serras da Arrábida, Monchique e São Mamede. Está presente na ZEC Complexo do Açor,
+                                    ocorrendo provavelmente em grande parte da área da ZEC, em manchas de biótopos
+                                    adequados (ICNF, 2019). Utiliza uma grande variedade de habitats, de preferência em
+                                    áreas associadas a linhas de água com vegetação arbórea
+                                    e arbustiva. É comum em biótopos frescos
+                                    e sombrios, com um certo teor de humidade.<br>
+                                    A lagarta alimenta-se de diversas herbáceas e espécies arbustivas e lenhosas como
+                                    nogueira (<em>Corylus avellana</em>), giestas (<em>Cytisus</em> sp), carvalhos (<em>Quercus</em> sp.) e
+                                    madressilvas (<em>Lonicera</em> sp.). Os adultos são florícolas.<br>
+                                    As principais ameaças estão associadas à destruição do habitat preferencial,
+                                    resultante da eliminação da vegetação ripícola e consequente redução dos locais de
+                                    abrigo, reprodução e alimentação; se o corte da vegetação for efetuado durante o
+                                    período de desenvolvimento larvar pode conduzir à extinção da espécie a nível local.
+                                    A introdução ou expansão de plantas não autóctones promove situações de competição,
+                                    diminuindo a disponibilidade de plantas autóctones hospedeiras da espécie.<br>
+                                    A poluição, resultante da intensificação da utilização de pesticidas e fertilizantes,
+                                    promove a diminuição das plantas hospedeiras da espécie, podendo também provocar o
+                                    envenenamento de indivíduos, com maior impacto nas fases larvares (ICNF, 2019).
+                                    (extraído do Relatório do Plano de Gestão da ZEC Complexo do Açor).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/fauna/invertebrabos/Euplagia quadripunctaria_2.webp" class="active">
+                            <div class="slide-caption">
+                                <p>Euplagia quadripunctaria</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="span-4 appearance-none">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-fauna2-3-close" src="assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+        <!--POP UP 2-4-->
+        <div id="popup-fauna2-4" class="popup popup-secondary grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Oxygastra<br>Curtisii </h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    Uma libélula com distribuição mundial limitada, parece ser comum, embora com
+                                    distribuição localizada,
+                                    na Península Ibérica.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    Em Portugal o maior número de registos ocorre na metade norte do país, onde se
+                                    observa também uma maior continuidade entre as populações; no sul a espécie
+                                    apresenta uma distribuição restrita a pequenos núcleos (De Knijf & Demolder, 2010;
+                                    De las Heras et al., 2017). Está presente na ZEC Complexo do Açor, ocorrendo
+                                    provavelmente em grande parte da área da ZEC, em manchas de biótopos adequados
+                                    (ICNF, 2019). Ocorre preferencialmente em meios lóticos permanentes, cursos de água
+                                    de média a grande dimensão, de fundos lodosos e arenosos, com abundante vegetação
+                                    ribeirinha, que proporciona sombra e abrigo nas zonas de orla (Torralba-Burrial et
+                                    al., 2012b). Pode ocorrer em pequenos reservatórios, lagos e canais de fluxo lento,
+                                    onde normalmente se alimenta. As fêmeas procuram as zonas de orla, com raízes e
+                                    pedras, para realizar as posturas. Fundos lodosos, nas zonas de remanso, junto às
+                                    margens, são importantes para o desenvolvimento larvar (Dommanget, 1987; Pérez
+                                    Gordillo, 2010b). A principal ameaça
+                                    à preservação da espécie está associada essencialmente à destruição e fragmentação
+                                    do seu habitat preferencial, resultante de atividades antrópicas que promovem
+                                    alterações na estrutura dos ecossistemas onde habitam (intervenções nas linhas de
+                                    água e suas margens, construção de barragens, captações de água) ou que comprometem
+                                    a qualidade da água e/ou disponibilidade de recursos tróficos (poluição aquática)
+                                    (Pérez Gordillo, 2010b; ICNF, 2019). As capturas para coleção podem ser consideradas
+                                    uma ameaça adicional (Pérez Gordillo, 2010b), desconhecendo-se a sua importância em
+                                    Portugal (ICNF, 2019). (extraído do Relatório do Plano de Gestão da ZEC Complexo do
+                                    Açor).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/fauna/invertebrabos/Oxygastra curtisii.webp" class="active">
+                            <div class="slide-caption">
+                                <p>Oxygastra curtisii</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-4 appearance-none">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-fauna2-4-close" src="assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+        <!--POP UP 2-5-->
+        <div id="popup-fauna2-5" class="popup popup-secondary grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Macromia<br>Splendens</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    Os adultos alimentam-se em clareiras e estradas florestais, onde encontram diversos
+                                    insetos alados, enquanto as larvas se alimentam de macroinvertebrados aquáticos e
+                                    outras larvas de insetos.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    <em>Macromia splendens</em> é uma libélula endémica do sul de França e noroeste da Península
+                                    Ibérica (Amorín et al., 2008c).<br>
+                                    Em Portugal o maior número de registos ocorre na metade norte do país, onde se
+                                    observa também uma maior continuidade entre as populações; no sul a espécie
+                                    apresenta núcleos pontuais em áreas restritas (Malkmus, 2002; De las Heras et al.,
+                                    2017). Está presente na ZEC Complexo do Açor, ocorrendo provavelmente em grande
+                                    parte da área da ZEC, em manchas de biótopos adequados (ICNF, 2019).<br>
+                                    Ocorre preferencialmente em meios lóticos permanentes, em troços de rios largos
+                                    e calmos, de profundidade variável, com zonas soalheiras e vegetação abundante nas
+                                    margens (Amorin et al., 2008c; Pérez Gordillo, 2010c; Leipelt & Suhling, 2005).
+                                    O desenvolvimento larvar ocorre em fundos lodosos com material vegetal em
+                                    decomposição (Pérez Gordillo, 2010c; Leipelt & Suhling, 2005). Ocasionalmente,
+                                    pequenas represas e barragens podem ser colonizados pela espécie (Dommanget & Grand,
+                                    1996; Cordero Rivera, 2000). A principal ameaça à preservação da espécie está
+                                    associada essencialmente à destruição e fragmentação do seu habitat preferencial,
+                                    resultante de atividades antrópicas que promovem alterações na estrutura dos
+                                    ecossistemas onde habitam (intervenções nas linhas de água e suas margens,
+                                    construção de barragens, captações de água) ou que comprometem a qualidade da água
+                                    e/ou disponibilidade de recursos tróficos (poluição aquática) (Pérez Gordillo,
+                                    2010c; ICNF, 2019). Alterações da estrutura do seu habitat pode levar ao
+                                    desaparecimento da espécie a nível local (ICNF, 2014a). (extraído do Relatório do
+                                    Plano de Gestão da ZEC Complexo do Açor)
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/fauna/invertebrabos/Macromia splendens.webp" class="active">
+                            <div class="slide-caption">
+                                <p>Macromia splendens</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-4 appearance-none">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-fauna2-5-close" src="assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+
+        <!--POP UP 3-->
+        <div id="popup-fauna3" class="popup grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Anfíbios</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    Associados às linhas
+                                    de água ocorrem 7 espécies de anfíbios, com destaque para 3 endemismos ibéricos:
+                                </p>
+                                <p>A salamandra-lusitânica (<em>Chioglossa lusitanica</em>) com o estatuto de Vulnerável, o
+                                    tritão-de-ventre-laranja (<em>Lissotriton boscai</em>)
+                                    e a rã-ibérica (<em>Rana iberica</em>). </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    Regista-se ainda a presença do sapo-parteiro (<em>Alytes obstetricans</em>), incluído no
+                                    Anexo B-IV da Diretiva Habitats que deve o seu nome ao facto de o macho transportar
+                                    os ovos no dorso.<br><br>
+
+                                    A salamandra-lusitânica é uma espécie com a categoria de Vulnerável que apenas
+                                    existe na Península Ibérica (endémica). É um anfíbio de corpo delgado, cabeça
+                                    pequena, olhos proeminentes e membros curtos e delgados. Tem coloração negra na face
+                                    dorsal, com duas listas longitudinais douradas a alaranjadas que se unem na longa
+                                    cauda, sendo o ventre cinzento-escuro com pontuações brancas. Pode atingir 15 cm de
+                                    comprimento. Ocorre em habitats com elevada humidade relativa e temperatura amena,
+                                    em margens de ribeiros de montanha, de água límpida e bem oxigenada, com vegetação
+                                    ripícola, e na proximidade de bosques de caducifólias e lameiros ou outros biótopos.
+                                    Na fase adulta alimenta-se de insetos, aranhas e pequenos moluscos e na fase larvar
+                                    come pequenos insetos aquáticos, moluscos e crustáceos.<br>
+                                    A primavera e o outono são a melhor altura do ano para se observar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/fauna/anfibios/Chioglossa_Lusitanica_vertical.webp" class="active">
+                            <div class="slide-caption">
+                                <p>Chioglossa Lusitanica</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/fauna/anfibios/Alytes_Obstetricans.webp">
+                            <div class="slide-caption">
+                                <p>Alytes Obstetricans</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/fauna/anfibios/Rana_iberica_vertical.webp">
+                            <div class="slide-caption">
+                                <p>Rana iberica</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-4">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-fauna3-close" src="assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+
+        <!--POP UP 4-->
+        <div id="popup-fauna4" class="popup grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Mamíferos</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    A existência de plantas com sementes e frutos comestíveis possibilita alimento a 35
+                                    espécies
+                                    de mamíferos.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    Estão presentes também muitos mamíferos:
+                                    o ouriço-cacheiro (<em>Erinaceus europeus</em>),
+                                    o musaranho-de-dentes-brancos (<em>Crocidura russula</em>), a toupeira, a lebre (<em>Lepus
+                                    capensis</em>),
+                                    o coelho-bravo (<em>Oryctolagus cuniculus</em>),
+                                    o esquilo-vermelho (<em>Sciurus vulgaris</em>),
+                                    a doninha (<em>Mustela nivalis</em>), o toirão (<em>Mustela putorius</em>), a fuinha (<em>Martes foina</em>), o
+                                    texugo (<em>Meles meles</em>), a geneta (<em>Genetta genetta</em>),
+                                    o saca-rabos (<em>Herpestes ichneumon</em>),
+                                    a raposa (<em>Vulpes vulpes</em>), o javali (<em>Sus scrofa</em>),
+                                    11 espécies de morcegos e um número considerável de pequenos ratos.<br><br>
+
+                                    Nove espécies encontram-se incluídas no Anexo III da Convenção de Berna, sendo elas
+                                    o ouriço-cacheiro (<em>Erinaceus europeus</em>),
+                                    o musaranho-de-dentes-brancos (<em>Crocidura russula</em>), a lebre (<em>Lepus granatensis</em>),
+                                    o esquilo-vermelho (<em>Sciurus vulgaris</em>),
+                                    a doninha (<em>Mustela nivalis</em>), a fuinha (<em>Martes foina</em>), o texugo (<em>Meles meles</em>), a
+                                    geneta (<em>Genetta genetta</em>) e o sacarrabos (<em>Herpestes ichneumon</em>). Destacam-se os
+                                    morcegos, por se encontrarem quase todos abrangidos por diversos estatutos de
+                                    proteção, o que os torna particularmente interessantes do ponto de vista da
+                                    conservação, estando o morcego-de-bechstein (<em>Myotis bechsteinii</em>), considerado como
+                                    “Em Perigo” no Livro Vermelho dos Vertebrados de Portugal e como “Vulnerável” na
+                                    Lista Vermelha da UICN.<br><br>
+
+                                    <em>Myotis bechsteinii</em> - É uma espécie com distribuição global alargada. Em Portugal
+                                    continental existem poucos registos da espécie, na sua maioria na zona centro, com
+                                    registos esporádicos recentes na zona norte e sul. Tipicamente arborícola, abriga-se
+                                    preferencialmente em cavidades de árvores, encontrando-se geralmente associada a
+                                    florestas de folhosas maduras e bem desenvolvidas. Na Europa do norte e central
+                                    hiberna em minas e grutas e parece criar quase exclusivamente em cavidades de
+                                    árvores. Alimenta-se essencialmente em bosques, preferencialmente de caducifólias
+                                    com árvores velhas, mas pode alimentar-se noutros tipos de áreas florestais e mesmo
+                                    em sistemas agroflorestais como montados. Indivíduos isolados podem-se refugiar em
+                                    abrigos subterrâneos, em particular na época de hibernação. Estudos recentes indicam
+                                    que utiliza abrigos subterrâneos para acasalar. Os registos mais recentes na ZEC
+                                    Complexo do Açor referem duas capturas na mata da Margaraça nos períodos 2005 e
+                                    2006. Tal como no resto do país,
+                                    a informação sobre a espécie é escassa, sendo conhecidos poucos dados de
+                                    distribuição. Em Portugal encontra-se classificada como Em Perigo, sendo considerada
+                                    muito rara, com população inferior a 1000 indivíduos. Entre os principais fatores de
+                                    ameaça destacam-se a degradação do habitat, devido a redução
+                                    e degradação dos bosques de folhosas nativas maduras, e a redução da disponibilidade
+                                    de presas, devido a fatores como as alterações da paisagem, alterações das práticas
+                                    agrícolas, uso de pesticidas e poluição das massas de água usadas como áreas de
+                                    alimentação. (extraído do Plano de Gestão da ZEC Complexo do Açor).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/fauna/mamiferos/Erinaceus-europaeus.webp" class="active">
+                            <div class="slide-caption">
+                                <p>Erinaceus europaeus</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/fauna/mamiferos/myotis bechsteinii.webp">
+                            <div class="slide-caption">
+                                <p>Myotis bechsteinii</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-4">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-fauna4-close" src="assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!--POP UP 5-->
+        <div id="popup-fauna5" class="popup grid">
+            <div class="popup-container inverted-radius">
+                <div class="popup-title span-6">
+                    <h2>Aves</h2>
+
+                    <div class="popup-text">
+                        <div class="popup-text-main">
+                            <div class="popup-text-left">
+                                <p class="p-big">
+                                    A diversidade de biótopos permite a presença de um grande número de aves.
+                                </p>
+                            </div>
+                            <div class="popup-text-right">
+                                <p>
+                                    As aves incluem um número considerável de espécies interessantes. Podem observar-se
+                                    na Serra do Açor aves como o Tartaranhão-caçador (<em>Circus pygargus</em>), o açor
+                                    (<em>Accipiter gentilis</em>), a coruja-do-nabal (<em>Asio flammeus</em>), a toutinegra-de-barrete
+                                    (<em>Sylvia borin</em>),
+                                    a felosinha-ibérica (<em>Phylloscopus ibericus</em>)
+                                    e o guarda-rios (<em>Alcedo athis</em>). Destacam-se, neste grupo, o tartaranhão-caçador
+                                    (<em>Circus pygargus</em>) e a coruja-do-nabal (<em>Asio flammeus</em>), que se encontra no Livro
+                                    Vermelho dos Vertebrados de Portugal com
+                                    o estatuto de “Em Perigo”, e o açor (<em>Accipiter gentilis</em>), juntamente com e a
+                                    Toutinegra-das-figueiras (<em>Sylvia borin</em>) que são apresentados, pelo mesmo documento,
+                                    como “Vulneráveis”. Refere-se ainda um endemismo ibérico, a felosinha-ibérica
+                                    (<em>Phylloscopus ibericus</em>). Aqui, habitam também espécies como a coruja-do-mato Strix
+                                    aluco, o chasco-preto (<em>Oenanthe leucura</em>), o búteo ou águia-de-asa-redonda <em>Buteo
+                                    buteo</em> e o pombo-torcaz <em>Columba palumbus</em>, algumas incluídas no Livro Vermelho dos
+                                    Vertebrados de Portugal.<br><br>
+
+                                    O Açor (<em>Accipiter gentilis</em>) é uma ave de presa de corpo forte, asas robustas e cauda
+                                    comprida. O macho tem plumagem azulada, enquanto a fêmea é acinzentada na face
+                                    dorsal e esbranquiçada na face ventral (com riscas cinzentas) e uma listra branca
+                                    sobre os olhos. Pode atingir 64 cm de comprimento
+                                    e 1,2 m de envergadura, sendo as fêmeas maiores. Habita em áreas florestais
+                                    localizadas em barrancos fluviais ou zonas mais planas, na proximidade de terrenos
+                                    abertos, como matos dispersos, culturas agrícolas e pastagens. Carnívoro,
+                                    alimenta-se de aves, mamíferos e répteis. Pode ser observado todo o ano. Maior do
+                                    que o gavião, distingue-se deste também por ter cauda mais comprida e cabeça
+                                    projetada.<br>
+                                    Está representado no símbolo da Paisagem Protegida da Serra do Açor.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span-6 popup-knowmore appearance-none">
+                        <p>Sabe mais:</p>
+                        <div class="popup-button-container">
+                            <div class="popup-button">
+                                <p>Veronica micrantha</p>
+                                <img src="assets/data/icons/button-arrow-up.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popup-image slider span-4">
+                    <div class="slides">
+
+                        <div class="slide">
+                             <img loading="lazy" src="assets/data/fotos/fauna/aves/AcorAccipiter_vertical.webp" class="active">
+                            <div class="slide-caption">
+                                <p>Acor Accipiter</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/fauna/aves/Strix aluco_2.webp">
+                            <div class="slide-caption">
+                                <p>Strix aluco</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/fauna/aves/Buteo-buteo_2.webp">
+                            <div class="slide-caption">
+                                <p>Buteo buteo</p>
+                            </div>
+                        </div>
+
+
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/fauna/aves/Aguia-de-asa-redonda.webp">
+                            <div class="slide-caption">
+                                <p>Aguia de asa redonda</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/fauna/aves/Asio flammeus_1.webp">
+                            <div class="slide-caption">
+                                <p>Asio flammeus</p>
+                            </div>
+                        </div>
+                       
+                        <div class="slide">
+                            <img loading="lazy" src="assets/data/fotos/fauna/aves/Circus-pygargus_2_vertical.webp">
+                            <div class="slide-caption">
+                                <p>Circus pygargus</p>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="span-4">
+                        <div class="popup-image-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="popup-close">
+                <img id="popup-fauna5-close" src="assets/data/header/menu-close.svg">
+            </div>
+        </div>
+
+
+
+
+
+        <menu-homepage pt-link="fauna3.html" en-link="en/fauna3.html">
+        </menu-homepage>
+
+
+        <script src="assets/js/menu.js"></script>
+        <script src="assets/js/fauna3.js"></script>
+        <script src="assets/js/popup-slider.js"></script>
+        <script src="assets/js/loading.js"></script>
+
+</body>
+
+</html>

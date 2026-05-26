@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Serra do Açor</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="assets/js/components.js"></script>
+
+    <link rel="preload" as="image" href="assets/data/fotos/fraga-da-pena/Fraga-da-Pena_horizontal.webp">
+</head>
+
+<body>
+
+    <div class="background-image">
+        <img src="assets/data/fotos/fraga-da-pena/Fraga-da-Pena_horizontal.webp">
+    </div>
+
+    <div class="body-flex">
+        <header>
+            <div class="header-left">
+                <div>
+                    <img onclick="window.location.href='index.html'" id="header-logo" src="assets/data/header/logo.svg">
+                </div>
+                <div>
+                    <h2 onclick="window.location.href='index.html'" id="header-title">Serra do Açor</h2>
+                    <div class="header-subtitle">
+                        <img id="header-arrow" src="assets/data/header/arrow-header.svg">
+                        <a href="fragadapena1.html">
+                            <h2 id="header-subtitle">Fraga da Pena</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-right">
+                <div class="header-language">
+                    <p class="language-selected">PT</p>
+                    <p>·</p>
+                    <a href="en/fragadapena1.html">
+                        <p>EN</p>
+                    </a>
+                </div>
+
+                <header-menu-button id="menu-button"></header-menu-button>
+
+            </div>
+        </header>
+
+
+        <main>
+            <div class="grid">
+                <div class="grid span-12 section-title">
+                    <div class="span-6">
+                        <h1 class="section-title-h1">Fraga</h1>
+                    </div>
+                    <div class="span-6">
+                        <h1 class="section-title-h1">da pena</h1>
+                    </div>
+                </div>
+
+                <div class="span-6 span-6-start section-title-container">
+                    <div class="section-title">
+                        <div class="section-text">
+                            <p class="p-bigger">
+                                A Fraga da Pena resulta de um acidente geológico que origina um conjunto de várias
+                                quedas de água ao longo de um curso de água permanente, a Barroca de Degraínhos.
+                            </p>
+
+                            <section-button href="fragadapena2.html"></section-button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <footer>
+            <footer-arrow direction="left" href="historia3.html"></footer-arrow>
+        </footer>
+
+        <menu-homepage pt-link="fragadapena1.html" en-link="en/fragadapena1.html">
+        </menu-homepage>
+
+
+        <script src="assets/js/menu.js"></script>
+</body>
+
+</html>
